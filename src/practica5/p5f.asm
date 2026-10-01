@@ -1,7 +1,7 @@
 %include "../../lib/pc_io.inc"
 
 section .text
-    global_start
+    global _start
 
 _start: 
 mov edx, msg
