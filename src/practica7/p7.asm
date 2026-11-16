@@ -33,6 +33,7 @@ _start:
     ; --- convertir entero a cadena ---
     mov eax, [resultado]
     mov edx, salida
+    add eax, 25
     mov ecx, 16
     call itoa
 
